@@ -1,0 +1,109 @@
+body {
+  color: #242423;
+  background: url(images/background_food.jpg) no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 15px;
+  line-height: 14px;
+  opacity: 1;
+}
+
+.background_transparency{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: grey;
+  opacity: 0.2;
+  z-index: -1;
+}
+
+h1 {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 50px;
+  line-height: 14px;
+}
+
+h2 {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  line-height: 14px;
+}
+
+h3 {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  line-height: 14px;
+}
+
+li{
+  list-style: none;
+  padding: 50px;
+}
+
+ul{
+  display: inline-flex;
+  padding:40px;
+}
+
+/*i{
+  padding: 50px;
+}*/
+
+a:hover{
+  color: white;
+}
+
+p{
+  font-size: 20px
+}
+
+#profile_pic {
+  border-radius: 50%;
+}
+
+.card_description{
+  text-align: center;
+  border-radius: 10px;
+  margin: 50px;
+  color: white;
+  line-height: 1,8;
+}
+
+.social_media{
+  text-align: center;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+  font-family:'Lato', sans-serif;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+.restos{
+  text-align: center;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 40px;
+}
+
+.btn-red{
+  border-radius: 10px;
+  background: #F9EDCC;
+  margin: 35px;
+  padding: 5px;
+  text-decoration: none
+  color: red;
+}
+
+.about_myself {
+  text-align: center;
+  color: white;
+  padding: 30px;
+}
